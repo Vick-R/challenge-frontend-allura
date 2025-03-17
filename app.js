@@ -27,8 +27,6 @@ function atualizarLista() {
 function sortearAmigo() {
     let lista = document.getElementById('listaAmigos');
     let resultado = document.getElementById('resultado');
-
-
     let indiceSorteado = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[indiceSorteado];
 
