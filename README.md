@@ -9,6 +9,12 @@ Este é um simples projeto de Amigo Secreto feito com **HTML, CSS e JavaScript**
 - Sortear um amigo aleatório
 - Exibir o resultado do sorteio na tela
 
+## 📸 Prints do Projeto
+![Tela inicial do projeto](assets/img1.png)
+![Adicionando amigos a lista, exibindo a lista](assets/img2.png)
+![Sorteio do amigo secreto!](assets/img3.png)
+
+
 ## 📂 Estrutura do Projeto
 
 ```
@@ -36,6 +42,35 @@ Este é um simples projeto de Amigo Secreto feito com **HTML, CSS e JavaScript**
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+
+## 🧩 Desenvolvimento Pessoal
+
+🔹 Dificuldade 1: Manipulação do DOM
+
+--Desafio: Inicialmente, tive dificuldades para atualizar dinamicamente a exibição da lista e remover os itens corretamente após o sorteio.
+
+--Solução: Pesquisei sobre innerHTML e createElement() para entender melhor como criar e substituir elementos na DOM. Testei diferentes abordagens até encontrar a mais eficiente.
+
+🔹 Dificuldade 2: Sorteio sempre pegava o primeiro item
+
+--Desafio: O sorteio só retornava o primeiro item da lista em vez de um nome aleatório.
+
+--Solução: Identifiquei que estava acessando o índice errado e corrigi o cálculo do índice aleatório usando Math.floor(Math.random() * amigos.length). Isso garantiu um sorteio justo.
+
+🔹 Dificuldade 3: Organização do Código
+
+-Desafio: Meu código estava confuso e difícil de entender, com funções mal organizadas.
+
+--Solução: Estruturei melhor as funções e adicionei comentários para facilitar a leitura. Também dividi algumas funções para que cada uma tivesse uma responsabilidade clara.
+
+🔥 Próximos Passos
+
+--Melhorar a responsividade da interface.
+
+--Adicionar a opção de remover nomes da lista antes do sorteio.
+
+--Implementar uma animação para o sorteio.
+
 
 ## 📜 Licença
 
